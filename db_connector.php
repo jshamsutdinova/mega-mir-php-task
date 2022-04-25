@@ -3,7 +3,7 @@
 function openConnDB() {
     $dbhost = "localhost";
     $dbuser = "root";
-    $dbpass = "aFaquedath5!";
+    $dbpass = "password";
     $db = "records";
 
     $connDB = mysqli_connect($dbhost, $dbuser, $dbpass, $db);
